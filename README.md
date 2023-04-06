@@ -10,4 +10,5 @@ Prerequisites:
 - a web server (tested with Apache, IIS)
 - unsupported browsers:
   - Internet Explorer
+
 Installation:
