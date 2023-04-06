@@ -1,4 +1,5 @@
 # qtest
 q type of test
 
-Requirements:
+Prerequisites:
+- PHP >= 7.2
