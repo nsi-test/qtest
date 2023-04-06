@@ -8,3 +8,4 @@ Prerequisites:
   - php-gmp (for arbitrary-length integers work)
 
 - a web server (tested with Apache, IIS)
+- unsupported browsers:
