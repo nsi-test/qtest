@@ -30,3 +30,9 @@ chcon -R -t httpd_sys_rw_content_t /path-to web-content/qcomb
 ### Access the web interface by the following link:
 
 http(s)://IP_OR_SERVER_ADDRESS/qcomb
+
+### Usage (there is a help page for more):
+
+You need to define a character set, requirements, number of combination characters, number of combinations and uniqueness necessity.
+
+There are defaults which values are in the web controls. The character set is limited to the 95 ascii printables (for now).
