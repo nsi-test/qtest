@@ -19,7 +19,7 @@ Prerequisites:
 Installation:
 
 1. Unpack the archive into web server root or some other place which is accessible by the web server (additional web server configuration may be necessary in the latter case).
-2. Set recursively read&write rights for the web server user (apache, etc.) on the directory (chown -R).
+2. Set recursively read&write rights for the web server user (apache, www-data, etc.) on the directory (chown -R).
   - If your Linux uses SELinux (Red Hat like), use such commands:
 ```
 chcon -R -t httpd_sys_content_t /path-to web-content/qcomb
