@@ -50,6 +50,8 @@ There is config.xml file in which you can set debug logging in a log file (qlog.
 
 You can download the results into tab delimited csv file on your computer.
 
+Unique for the script - it uses an input file with id-s and generates a tab delimited csv with the results mapped by id-s (it is for usefulness, id-s can be serial numbers, computer names, usernames, etc.)
+
 ### Short description of the software:
 
 It uses an algorithm based on considering combinations of characters as numbers in a specific bijective number system.
