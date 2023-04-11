@@ -36,3 +36,14 @@ http(s)://IP_OR_SERVER_ADDRESS/qcomb
 You need to define a character set, requirements, number of combination characters, number of combinations and uniqueness necessity.
 
 There are defaults which values are in the web controls. The character set is limited to the 95 ascii printables (for now).
+
+There is config.xml file in which you can set debug logging in a log file (qlog.txt). It is off by default and not recomended for ordinary use.
+
+You can download the results into tab delimited csv file on your computer.
+
+### Short description of the software:
+
+It uses an algorithm based on considering combinations of characters as numbers in a specific bijective number system.
+The bijective feature (without character meaning zero - 0) assures comprehensiveness of the connection combination - number.
+Then the program chooses the margins - from user decision and gets a random number, which represents as a combination of characters.
+The randomness is cryptographically secure due the usage of PHP random_bytes function for generation which is officially documented as CS.
