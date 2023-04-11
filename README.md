@@ -31,7 +31,16 @@ chcon -R -t httpd_sys_rw_content_t /path-to web-content/qcomb
 
 http(s)://IP_OR_SERVER_ADDRESS/qcomb
 
-### Usage:
+### To use the script only:
+
+  - Enter the qcomb directory
+  - edit id2passgenerate.ini for the settings
+  - type:
+```
+php id2passgenerate.php --help
+```
+
+### Usage (both web & script):
 
 You need to define a character set, requirements, number of combination characters, number of combinations and uniqueness necessity.
 
